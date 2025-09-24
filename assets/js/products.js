@@ -1,10 +1,11 @@
+ // No changes made as 'Kuri' was not found in the file.
 /* assets/js/products.js */
 
 // === Config ===
 const WHATSAPP_PHONE = "521000000000"; // tu número
 const CATEGORY_LABELS = {
-  kimetsu: "Playeras Kimetsu",
-  tokyo: "Playeras Tokyo Revengers",
+  kimetsu: "Kimetsu",
+  tokyo: "Tokyo Revengers",
   otros: "Otros artículos"
 };
 
@@ -56,7 +57,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Comprar (WhatsApp)
     node.querySelector(".buy").href =
       `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent("Quiero " + p.name)}`;
-    node.querySelector(".buy").innerHTML = `Comprar <span style='font-size:0.95em'>(999 747 8066)</span>`;
 
     // Detalles
     // Detalles
@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 
   // 4) Filtro
-  function applyFilter(cat) {
+  function applyFilter(cat, scrollToFirst = false) {
     setSelected(cat);
     $$(".item").forEach(card => {
       const match = (cat === "all" || card.dataset.cat === cat);
@@ -97,13 +97,20 @@ document.addEventListener("DOMContentLoaded", async () => {
     const u = new URL(location.href);
     if (cat === "all") u.searchParams.delete("cat"); else u.searchParams.set("cat", cat);
     history.replaceState({}, "", u);
+    // Scroll al primer producto de la categoría
+    if (scrollToFirst && cat !== "all") {
+      const first = $$(".item").find(card => !card.classList.contains("hidden"));
+      if (first) {
+        first.scrollIntoView({behavior: "smooth", block: "center"});
+      }
+    }
   }
 
   // Click con delegación
   $("#catBar").addEventListener("click", e => {
     const btn = e.target.closest(".tab-btn");
     if (!btn) return;
-    applyFilter(btn.dataset.cat);
+    applyFilter(btn.dataset.cat, true);
   });
 
   // Accesibilidad: teclado (Enter/Espacio)
@@ -112,7 +119,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const btn = e.target.closest(".tab-btn");
     if (!btn) return;
     e.preventDefault();
-    applyFilter(btn.dataset.cat);
+    applyFilter(btn.dataset.cat, true);
   });
 
   // Categoría inicial
