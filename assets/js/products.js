@@ -86,17 +86,22 @@ document.addEventListener("DOMContentLoaded", async () => {
     catBar.appendChild(btn);
   });
 
-  // 4) Filtro
+  // 4) Filtro solo hace scroll a la categoría
   function applyFilter(cat) {
     setSelected(cat);
-    $$(".item").forEach(card => {
-      const match = (cat === "all" || card.dataset.cat === cat);
-      card.classList.toggle("hidden", !match);
-    });
     // Actualiza URL sin recargar (deep-link)
     const u = new URL(location.href);
     if (cat === "all") u.searchParams.delete("cat"); else u.searchParams.set("cat", cat);
     history.replaceState({}, "", u);
+    // Scroll al primer producto de la categoría
+    if (cat !== "all") {
+      const first = $$(".card").find(card => card.dataset.cat === cat);
+      if (first) {
+        first.scrollIntoView({behavior: "smooth", block: "center"});
+      }
+    } else {
+      window.scrollTo({top: 0, behavior: "smooth"});
+    }
   }
 
   // Click con delegación
