@@ -4,10 +4,20 @@
     "name": "Playera Tanjiro",
     "category": "kimetsu",
     "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/kuki-playera-tanjiro-manga.webp",
+    "img": "assets/img/products/kuki-playera-tanjiro-manga.webp",
     "tags": ["Kimetsu", "Unisex"],
-  "price": 229,
-  "desc": "¡Luce el estilo de Tanjiro con esta playera de algodón premium! Estampado de alta calidad y comodidad total para fans exigentes. ¡Hazla tuya y destaca tu pasión por Kimetsu!"
+  "price": 199,
+    "desc": "¡Luce el estilo de Tanjiro con esta playera de algodón premium! Estampado de alta calidad y comodidad total para fans exigentes. ¡Hazla tuya y destaca tu pasión por Kimetsu!"
+  },
+  {
+    "id": "kuki-playera-nezuko-manga",
+    "name": "Playera Nezuko Kamado",
+    "category": "kimetsu",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/kuki-playera-nezuko-manga.webp",
+    "tags": ["Kimetsu", "Unisex"],
+    "price": 229,
+    "desc": "¡Destaca con la ternura y fuerza de Nezuko! Playera de algodón premium, cómoda y con estampado vibrante. Ideal para fans que quieren un look único y especial. ¡Hazla tuya y lleva a Nezuko contigo!"
   },
     {
     "id": "kuki-playera-zenitsu-manga",
@@ -118,5 +128,316 @@
     "tags": ["Kimetsu", "Pilar de la Roca"],
     "price": 229,
     "desc": "Siente la fortaleza de Gyomei Himejima en cada detalle. Playera premium, suave y con estampado de alta calidad. ¡Hazla parte de tu guardarropa!"
+
+  },
+  {
+    "id": "kuki-playera-luffy-1",
+    "name": "Playera Luffy (One Piece)",
+    "category": "one-piece",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/one-piece/kuki-playera-luffy-1.webp",
+    "tags": ["One Piece", "Unisex"],
+    "price": 229,
+    "desc": "¡Luce el espíritu aventurero de Luffy! Playera de algodón premium, cómoda y con estampado vibrante. Ideal para fans de One Piece que quieren destacar su pasión por el Rey de los Piratas."
+  },
+  {
+    "id": "kuki-playera-zoro-1",
+    "name": "Playera Zoro Katana (One Piece)",
+    "category": "one-piece",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/one-piece/kuki-playera-zoro-1.webp",
+    "tags": ["One Piece", "Unisex"],
+    "price": 229,
+    "desc": "Demuestra tu admiración por Zoro con esta playera premium. Perfecta para cualquier ocasión, con un estampado que resalta tu fanatismo por el espadachín de One Piece."
+  },
+  {
+    "id": "kuki-playera-sanji-1",
+    "name": "Playera Sanji (One Piece)",
+    "category": "one-piece",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/one-piece/kuki-playera-sanji-1.webp",
+    "tags": ["One Piece", "Unisex"],
+    "price": 229,
+    "desc": "Luce el estilo de Sanji con esta playera de algodón premium. Estampado de alta calidad y comodidad total para fans exigentes de One Piece."
+  },
+  {
+    "id": "kuki-playera-sabo-1",
+    "name": "Playera Sabo (One Piece)",
+    "category": "one-piece",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/one-piece/kuki-playera-sabo-1.webp",
+    "tags": ["One Piece", "Unisex"],
+    "price": 229,
+    "desc": "¡Siente el poder de Sabo! Playera exclusiva, algodón suave y estampado duradero. Perfecta para fans de One Piece que buscan calidad y diseño único."
+  },
+  {
+    "id": "kuki-playera-law-1",
+    "name": "Playera Trafalgar Law (One Piece)",
+    "category": "one-piece",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/one-piece/kuki-playera-law-1.png",
+    "tags": ["One Piece", "Unisex"],
+    "price": 229,
+    "desc": "Lleva el estilo de Trafalgar Law a otro nivel. Playera premium, cómoda y con estampado vibrante. ¡Hazla tuya y destaca tu pasión por One Piece!"
+  },
+  {
+    "id": "kuki-playera-luffy-2",
+    "name": "Playera Luffy Sombrero (One Piece)",
+    "category": "one-piece",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/one-piece/kuki-playera-luffy-2.webp",
+    "tags": ["One Piece", "Unisex"],
+    "price": 229,
+    "desc": "Siente la energía de Luffy con esta playera exclusiva. Algodón suave, estampado resistente y diseño único para verdaderos fans de One Piece. ¡No te quedes sin la tuya!"
+  },
+  {
+    "id": "kuki-playera-luffy-3",
+    "name": "Playera Luffy Wanted (One Piece)",
+    "category": "one-piece",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/one-piece/kuki-playera-luffy-3.webp",
+    "tags": ["One Piece", "Unisex"],
+    "price": 229,
+    "desc": "¡Atrévete a destacar con la recompensa de Luffy! Playera cómoda, estampado vibrante y calidad superior. Perfecta para los fans de One Piece."
+  },
+  {
+    "id": "kuki-playera-luffy-4",
+    "name": "Playera Luffy Jump (One Piece)",
+    "category": "one-piece",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/one-piece/kuki-playera-luffy-4.webp",
+    "tags": ["One Piece", "Unisex"],
+    "price": 229,
+    "desc": "Salta a la aventura con Luffy. Playera premium, suave y resistente, perfecta para fans auténticos de One Piece. ¡No la dejes pasar!"
+  },
+  {
+    "id": "kuki-playera-luffy-5",
+    "name": "Playera Luffy Gear (One Piece)",
+    "category": "one-piece",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/one-piece/kuki-playera-luffy-5.webp",
+    "tags": ["One Piece", "Unisex"],
+    "price": 229,
+    "desc": "¡Desata el poder de Luffy Gear! Playera de algodón premium, estampado de alta calidad y comodidad total para fans exigentes."
+  },
+  {
+    "id": "kuki-playera-luffy-6",
+    "name": "Playera Luffy Smile (One Piece)",
+    "category": "one-piece",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/one-piece/kuki-playera-luffy-6.webp",
+    "tags": ["One Piece", "Unisex"],
+    "price": 229,
+    "desc": "Lleva la sonrisa de Luffy a todas partes. Playera cómoda, resistente y con un diseño que te hará sobresalir. ¡Ideal para fans de One Piece!"
+  },
+  {
+    "id": "kuki-playera-luffy-7",
+    "name": "Playera Luffy Crew (One Piece)",
+    "category": "one-piece",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/one-piece/kuki-playera-luffy-7.webp",
+    "tags": ["One Piece", "Unisex"],
+    "price": 229,
+    "desc": "Únete a la tripulación de Luffy con esta playera exclusiva. Algodón premium y estampado duradero para acompañarte en cada aventura."
+  },
+  {
+    "id": "kuki-playera-zoro-2",
+    "name": "Playera Zoro Wanted (One Piece)",
+    "category": "one-piece",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/one-piece/kuki-playera-zoro-2.webp",
+    "tags": ["One Piece", "Unisex"],
+    "price": 229,
+    "desc": "¡Recompensa asegurada! Playera de Zoro con diseño wanted, algodón premium y estampado vibrante. ¡Hazla tuya y presume tu fanatismo!"
+  },
+  {
+    "id": "kuki-playera-zoro-3",
+    "name": "Playera Zoro Crew (One Piece)",
+    "category": "one-piece",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/one-piece/kuki-playera-zoro-3.webp",
+    "tags": ["One Piece", "Unisex"],
+    "price": 229,
+    "desc": "Únete a la tripulación de Zoro. Playera cómoda, resistente y con diseño exclusivo para verdaderos fans de One Piece."
+  },
+  {
+  "id": "kuki-playera-huntrix-1",
+  "name": "Playera Huntrix 1",
+  "category": "demon-hunters",
+  "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-1.webp",
+  "tags": ["Huntrix", "Unisex"],
+  "price": 229,
+  "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
+  },
+  {
+  "id": "kuki-playera-huntrix-2",
+  "name": "Playera Huntrix 2",
+  "category": "demon-hunters",
+  "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-2.webp",
+    "tags": ["Huntrix", "Unisex"],
+    "price": 229,
+    "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
+  },
+  {
+  "id": "kuki-playera-huntrix-3",
+  "name": "Playera Huntrix 3",
+  "category": "demon-hunters",
+  "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-3.webp",
+    "tags": ["Huntrix", "Unisex"],
+    "price": 229,
+    "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
+  },
+  {
+  "id": "kuki-playera-huntrix-4",
+  "name": "Playera Huntrix 4",
+  "category": "demon-hunters",
+  "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-4.webp",
+    "tags": ["Huntrix", "Unisex"],
+    "price": 229,
+    "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
+  },
+  {
+  "id": "kuki-playera-huntrix-5",
+  "name": "Playera Huntrix 5",
+  "category": "demon-hunters",
+  "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-5.webp",
+    "tags": ["Huntrix", "Unisex"],
+    "price": 229,
+    "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
+  },
+  {
+  "id": "kuki-playera-huntrix-6",
+  "name": "Playera Huntrix 6",
+  "category": "demon-hunters",
+  "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-6.webp",
+    "tags": ["Huntrix", "Unisex"],
+    "price": 229,
+    "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
+  },
+  {
+  "id": "kuki-playera-huntrix-7",
+  "name": "Playera Huntrix 7",
+  "category": "demon-hunters",
+  "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-7.webp",
+    "tags": ["Huntrix", "Unisex"],
+    "price": 229,
+    "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
+  },
+  {
+  "id": "kuki-playera-huntrix-8",
+  "name": "Playera Huntrix 8",
+  "category": "demon-hunters",
+  "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-8.webp",
+    "tags": ["Huntrix", "Unisex"],
+    "price": 229,
+    "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
+  },
+  {
+  "id": "kuki-playera-huntrix-9",
+  "name": "Playera Huntrix 9",
+  "category": "demon-hunters",
+  "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-9.webp",
+    "tags": ["Huntrix", "Unisex"],
+    "price": 229,
+    "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
+  },
+  {
+  "id": "kuki-playera-huntrix-10",
+  "name": "Playera Huntrix 10",
+  "category": "demon-hunters",
+  "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-10.webp",
+    "tags": ["Huntrix", "Unisex"],
+    "price": 229,
+    "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
+  },
+  {
+  "id": "kuki-playera-huntrix-11",
+  "name": "Playera Huntrix 11",
+  "category": "demon-hunters",
+  "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-11.webp",
+    "tags": ["Huntrix", "Unisex"],
+    "price": 229,
+    "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
+  },
+  {
+  "id": "kuki-playera-huntrix-12",
+  "name": "Playera Huntrix 12",
+  "category": "demon-hunters",
+  "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-12.webp",
+    "tags": ["Huntrix", "Unisex"],
+    "price": 229,
+    "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
+  },
+  {
+  "id": "kuki-playera-huntrix-13",
+  "name": "Playera Huntrix 13",
+  "category": "demon-hunters",
+  "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-13.webp",
+    "tags": ["Huntrix", "Unisex"],
+    "price": 229,
+    "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
+  },
+  {
+  "id": "kuki-playera-huntrix-14",
+  "name": "Playera Huntrix 14",
+  "category": "demon-hunters",
+  "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-14.webp",
+    "tags": ["Huntrix", "Unisex"],
+    "price": 229,
+    "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
+  },
+  {
+  "id": "kuki-playera-huntrix-15",
+  "name": "Playera Huntrix 15",
+  "category": "demon-hunters",
+  "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-15.webp",
+    "tags": ["Huntrix", "Unisex"],
+    "price": 229,
+    "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
+  },
+  {
+  "id": "kuki-playera-huntrix-16",
+  "name": "Playera Huntrix 16",
+  "category": "demon-hunters",
+  "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-16.webp",
+    "tags": ["Huntrix", "Unisex"],
+    "price": 229,
+    "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
+  },
+  {
+  "id": "kuki-playera-huntrix-17",
+  "name": "Playera Huntrix 17",
+  "category": "demon-hunters",
+  "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-17.webp",
+    "tags": ["Huntrix", "Unisex"],
+    "price": 229,
+    "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
+  },
+  {
+  "id": "kuki-playera-huntrix-18",
+  "name": "Playera Huntrix 18",
+  "category": "demon-hunters",
+  "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-18.webp",
+    "tags": ["Huntrix", "Unisex"],
+    "price": 229,
+    "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
   }
 ]

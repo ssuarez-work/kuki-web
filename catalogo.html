@@ -57,7 +57,14 @@
       .lead, .meta, .foot, .chip, .crumb, .tab {
         color: var(--sub) !important;
       }
-      .price {
+  .price {
+      .cat-title {
+        font-size: 1.7rem;
+        font-weight: 800;
+        margin: 2.2rem 0 1.1rem 0;
+        color: var(--brand);
+        letter-spacing: -1px;
+      }
         color: var(--accent) !important;
       }
       img {
@@ -424,7 +431,7 @@
       <div class="container crumb">
         <div class="brand">
           <img
-            src="/assets/img/logo.webp"
+            src="assets/img/logo.webp"
             alt="Logo Küki"
             style="height: 32px"
           />
@@ -435,7 +442,7 @@
       </div>
     </div>
 
-    <header class="container hero">
+    <header class="container hero" style="padding: 1.5rem;">
       <h1 class="h1">Todo el catálogo</h1>
       <p class="lead">
         Explora todas las categorías.
@@ -485,11 +492,12 @@
     <footer>
       <div class="container foot">
         <div class="brand">
-          <div class="logo"></div>
-          <span>Küri</span>
-        </div>
-        <div>
-          © <span id="y">2025</span> Küri. Todos los derechos reservados.
+          <img
+            src="assets/img/logo.webp"
+            alt="Logo Küki"
+            style="height: 32px"
+          />
+          <span>Küki</span>
         </div>
         <a href="index.html">Volver a la landing</a>
       </div>

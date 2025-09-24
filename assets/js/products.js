@@ -1,10 +1,11 @@
+ // No changes made as 'Kuri' was not found in the file.
 /* assets/js/products.js */
 
 // === Config ===
 const WHATSAPP_PHONE = "521000000000"; // tu número
 const CATEGORY_LABELS = {
-  kimetsu: "Playeras Kimetsu",
-  tokyo: "Playeras Tokyo Revengers",
+  kimetsu: "Kimetsu",
+  tokyo: "Tokyo Revengers",
   otros: "Otros artículos"
 };
 
@@ -30,40 +31,52 @@ document.addEventListener("DOMContentLoaded", async () => {
   const products = await res.json();
 
   // 2) Pintar cards
-  const frag = document.createDocumentFragment();
+  // Agrupar productos por categoría
+  const grouped = {};
   products.forEach(p => {
-    const node = tpl.content.cloneNode(true);
-    const card = node.querySelector(".card");
-    card.dataset.cat = p.category;
+    if (!grouped[p.category]) grouped[p.category] = [];
+    grouped[p.category].push(p);
+  });
 
-    const img = node.querySelector(".thumb img");
-    img.src = p.img;
-    img.alt = p.name;
-    img.loading = "lazy";
+  const frag = document.createDocumentFragment();
+  Object.entries(grouped).forEach(([cat, items]) => {
+    // Título de la categoría
+    const h2 = document.createElement("h2");
+    h2.textContent = CATEGORY_LABELS[cat] || titleCase(cat);
+    h2.className = "cat-title";
+    frag.appendChild(h2);
+    // Productos
+    items.forEach(p => {
+      const node = tpl.content.cloneNode(true);
+      const card = node.querySelector(".card");
+      card.dataset.cat = p.category;
 
-    node.querySelector(".name").textContent = p.name;
-    node.querySelector(".sizes").textContent = p.sizes || "";
-    node.querySelector(".price").textContent = `$${p.price}`;
+      const img = node.querySelector(".thumb img");
+      img.src = p.img;
+      img.alt = p.name;
+      img.loading = "lazy";
 
-    const chips = node.querySelector(".chips");
-    (p.tags || []).forEach(t => {
-      const span = document.createElement("span");
-      span.className = "chip";
-      span.textContent = t;
-      chips.appendChild(span);
+      node.querySelector(".name").textContent = p.name;
+      node.querySelector(".sizes").textContent = p.sizes || "";
+      node.querySelector(".price").textContent = `$${p.price}`;
+
+      const chips = node.querySelector(".chips");
+      (p.tags || []).forEach(t => {
+        const span = document.createElement("span");
+        span.className = "chip";
+        span.textContent = t;
+        chips.appendChild(span);
+      });
+
+      // Comprar (WhatsApp)
+      node.querySelector(".buy").href =
+        `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent("Quiero " + p.name)}`;
+
+      // Detalles
+      node.querySelector(".details").href = `product.html?id=${encodeURIComponent(p.id)}`;
+
+      frag.appendChild(node);
     });
-
-    // Comprar (WhatsApp)
-    node.querySelector(".buy").href =
-      `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent("Quiero " + p.name)}`;
-    node.querySelector(".buy").innerHTML = `Comprar <span style='font-size:0.95em'>(999 747 8066)</span>`;
-
-    // Detalles
-    // Detalles
-    node.querySelector(".details").href = `product.html?id=${encodeURIComponent(p.id)}`;
-
-
-    frag.appendChild(node);
   });
   catalog.appendChild(frag);
 
@@ -86,21 +99,19 @@ document.addEventListener("DOMContentLoaded", async () => {
     catBar.appendChild(btn);
   });
 
-  // 4) Filtro solo hace scroll a la categoría
-  function applyFilter(cat) {
+  // 4) Filtro
+  function applyFilter(cat, scrollToFirst = false) {
     setSelected(cat);
     // Actualiza URL sin recargar (deep-link)
     const u = new URL(location.href);
     if (cat === "all") u.searchParams.delete("cat"); else u.searchParams.set("cat", cat);
     history.replaceState({}, "", u);
     // Scroll al primer producto de la categoría
-    if (cat !== "all") {
-      const first = $$(".card").find(card => card.dataset.cat === cat);
+    if (scrollToFirst && cat !== "all") {
+      const first = $$(".item").find(card => !card.classList.contains("hidden"));
       if (first) {
         first.scrollIntoView({behavior: "smooth", block: "center"});
       }
-    } else {
-      window.scrollTo({top: 0, behavior: "smooth"});
     }
   }
 
@@ -108,7 +119,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   $("#catBar").addEventListener("click", e => {
     const btn = e.target.closest(".tab-btn");
     if (!btn) return;
-    applyFilter(btn.dataset.cat);
+    applyFilter(btn.dataset.cat, true);
   });
 
   // Accesibilidad: teclado (Enter/Espacio)
@@ -117,7 +128,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const btn = e.target.closest(".tab-btn");
     if (!btn) return;
     e.preventDefault();
-    applyFilter(btn.dataset.cat);
+    applyFilter(btn.dataset.cat, true);
   });
 
   // Categoría inicial
