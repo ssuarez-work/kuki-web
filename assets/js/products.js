@@ -31,39 +31,52 @@ document.addEventListener("DOMContentLoaded", async () => {
   const products = await res.json();
 
   // 2) Pintar cards
-  const frag = document.createDocumentFragment();
+  // Agrupar productos por categoría
+  const grouped = {};
   products.forEach(p => {
-    const node = tpl.content.cloneNode(true);
-    const card = node.querySelector(".card");
-    card.dataset.cat = p.category;
+    if (!grouped[p.category]) grouped[p.category] = [];
+    grouped[p.category].push(p);
+  });
 
-    const img = node.querySelector(".thumb img");
-    img.src = p.img;
-    img.alt = p.name;
-    img.loading = "lazy";
+  const frag = document.createDocumentFragment();
+  Object.entries(grouped).forEach(([cat, items]) => {
+    // Título de la categoría
+    const h2 = document.createElement("h2");
+    h2.textContent = CATEGORY_LABELS[cat] || titleCase(cat);
+    h2.className = "cat-title";
+    frag.appendChild(h2);
+    // Productos
+    items.forEach(p => {
+      const node = tpl.content.cloneNode(true);
+      const card = node.querySelector(".card");
+      card.dataset.cat = p.category;
 
-    node.querySelector(".name").textContent = p.name;
-    node.querySelector(".sizes").textContent = p.sizes || "";
-    node.querySelector(".price").textContent = `$${p.price}`;
+      const img = node.querySelector(".thumb img");
+      img.src = p.img;
+      img.alt = p.name;
+      img.loading = "lazy";
 
-    const chips = node.querySelector(".chips");
-    (p.tags || []).forEach(t => {
-      const span = document.createElement("span");
-      span.className = "chip";
-      span.textContent = t;
-      chips.appendChild(span);
+      node.querySelector(".name").textContent = p.name;
+      node.querySelector(".sizes").textContent = p.sizes || "";
+      node.querySelector(".price").textContent = `$${p.price}`;
+
+      const chips = node.querySelector(".chips");
+      (p.tags || []).forEach(t => {
+        const span = document.createElement("span");
+        span.className = "chip";
+        span.textContent = t;
+        chips.appendChild(span);
+      });
+
+      // Comprar (WhatsApp)
+      node.querySelector(".buy").href =
+        `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent("Quiero " + p.name)}`;
+
+      // Detalles
+      node.querySelector(".details").href = `product.html?id=${encodeURIComponent(p.id)}`;
+
+      frag.appendChild(node);
     });
-
-    // Comprar (WhatsApp)
-    node.querySelector(".buy").href =
-      `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent("Quiero " + p.name)}`;
-
-    // Detalles
-    // Detalles
-    node.querySelector(".details").href = `product.html?id=${encodeURIComponent(p.id)}`;
-
-
-    frag.appendChild(node);
   });
   catalog.appendChild(frag);
 
