@@ -1,0 +1,122 @@
+[
+  {
+    "id": "kuki-playera-tanjiro-manga",
+    "name": "Playera Tanjiro",
+    "category": "kimetsu",
+    "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/kuki-playera-tanjiro-manga.webp",
+    "tags": ["Kimetsu", "Unisex"],
+  "price": 229,
+  "desc": "¡Luce el estilo de Tanjiro con esta playera de algodón premium! Estampado de alta calidad y comodidad total para fans exigentes. ¡Hazla tuya y destaca tu pasión por Kimetsu!"
+  },
+    {
+    "id": "kuki-playera-zenitsu-manga",
+    "name": "Playera Zenitsu Agatsuma",
+    "category": "kimetsu",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/kuki-playera-zenitsu-manga.webp",
+    "tags": ["Kimetsu", "Unisex"],
+    "price": 229,
+    "desc": "¡Despierta tu lado más electrizante con la playera de Zenitsu! Algodón premium, estampado vibrante y comodidad total para fans que quieren destacar. ¡No te quedes sin la tuya!"
+  },
+  {
+    "id": "kuki-playera-inosuke-manga",
+    "name": "Playera Inosuke",
+    "category": "kimetsu",
+    "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/kuki-playera-inosuke-manga.webp",
+    "tags": ["Kimetsu", "Unisex"],
+  "price": 229,
+  "desc": "Siente la energía de Inosuke con esta playera exclusiva. Algodón suave, estampado resistente y diseño único para verdaderos fans. ¡No te quedes sin la tuya!"
+  },
+  {
+    "id": "kuki-playera-giyu-manga",
+    "name": "Playera Giyu Tomioka",
+    "category": "kimetsu",
+    "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/kuki-playera-giyu-manga.webp",
+    "tags": ["Kimetsu", "Pilar del Agua"],
+  "price": 229,
+  "desc": "Demuestra tu admiración por Giyu Tomioka con esta playera premium. Perfecta para cualquier ocasión, con un estampado que resalta tu fanatismo. ¡Atrévete a destacar!"
+  },
+  {
+    "id": "kuki-playera-shinobu-manga",
+    "name": "Playera Shinobu Kocho",
+    "category": "kimetsu",
+    "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/kuki-playera-shinobu-manga.webp",
+    "tags": ["Kimetsu", "Pilar del Insecto"],
+  "price": 229,
+  "desc": "Elegancia y estilo en una sola prenda. Lleva a Shinobu Kocho contigo y presume un diseño exclusivo, cómodo y duradero. ¡Hazla parte de tu colección!"
+  },
+  {
+    "id": "kuki-playera-kyorojuro-manga",
+    "name": "Playera Kyojuro Rengoku",
+    "category": "kimetsu",
+    "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/kuki-playera-rengoku-manga.webp",
+    "tags": ["Kimetsu", "Pilar de la Llama"],
+  "price": 229,
+  "desc": "Enciende tu look con la fuerza de Rengoku. Playera de algodón premium, ideal para fans que buscan calidad y un diseño que inspira. ¡Consíguela ahora!"
+  },
+  {
+    "id": "kuki-playera-tengen-manga",
+    "name": "Playera Tengen Uzui",
+    "category": "kimetsu",
+    "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/kuki-playera-tengen-manga.webp",
+    "tags": ["Kimetsu", "Pilar del Sonido"],
+  "price": 229,
+  "desc": "Destaca con el estilo único de Tengen Uzui. Playera cómoda, estampado vibrante y calidad superior. ¡Hazte notar y lleva tu fanatismo al siguiente nivel!"
+  },
+  {
+    "id": "kuki-playera-mitsuri-manga",
+    "name": "Playera Mitsuri Kanroji",
+    "category": "kimetsu",
+    "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/kuki-playera-mitsuri-manga.webp",
+    "tags": ["Kimetsu", "Pilar del Amor"],
+  "price": 229,
+  "desc": "Dale un toque de amor y color a tu outfit con Mitsuri Kanroji. Playera premium, suave y resistente, perfecta para fans auténticos. ¡No la dejes pasar!"
+  },
+  {
+    "id": "kuki-playera-muichiro-manga",
+    "name": "Playera Muichiro Tokito",
+    "category": "kimetsu",
+    "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/kuki-playera-muichiro-manga.webp",
+    "tags": ["Kimetsu", "Pilar de la Niebla"],
+  "price": 229,
+  "desc": "Siente la niebla y el misterio de Muichiro Tokito en esta playera exclusiva. Calidad, comodidad y diseño para verdaderos coleccionistas. ¡Hazla tuya hoy!"
+  },
+  {
+    "id": "kuki-playera-sanemi-manga",
+    "name": "Playera Sanemi Shinazugawa",
+    "category": "kimetsu",
+    "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/kuki-playera-sanemi-manga.webp",
+    "tags": ["Kimetsu", "Pilar del Viento"],
+  "price": 229,
+  "desc": "Atrévete a destacar con la fuerza de Sanemi. Playera cómoda, resistente y con un diseño que te hará sobresalir. ¡Ideal para fans de Kimetsu!"
+  },
+  {
+    "id": "kuki-playera-obanai-manga",
+    "name": "Playera Obanai Iguro",
+    "category": "kimetsu",
+    "sizes": "Tallas XS–XXL",
+  "img": "assets/img/products/kuki-playera-obanai-manga.webp",
+    "tags": ["Kimetsu", "Pilar de la Serpiente"],
+  "price": 229,
+  "desc": "Luce el poder de Obanai Iguro con esta playera de edición especial. Algodón premium y estampado duradero para acompañarte en cada aventura. ¡Cómprala ya!"
+  },
+  {
+    "id": "kuki-playera-gyomei-manga",
+    "name": "Playera Gyomei Himejima",
+    "category": "kimetsu",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/kuki-playera-gyomei-manga.webp",
+    "tags": ["Kimetsu", "Pilar de la Roca"],
+    "price": 229,
+    "desc": "Siente la fortaleza de Gyomei Himejima en cada detalle. Playera premium, suave y con estampado de alta calidad. ¡Hazla parte de tu guardarropa!"
+  }
+]
