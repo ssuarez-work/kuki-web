@@ -3,11 +3,23 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Küri – Todo el catálogo</title>
+    <title>Küki – Todo el catálogo</title>
+    <meta name="description" content="Catálogo completo de playeras Küki. Moda anime, manga y diseños exclusivos en México. Unisex, algodón premium, tallas XS–XXL." />
+    <meta name="keywords" content="playeras, camisetas, anime, manga, Küki, moda, México, estampados, exclusivos, algodón, unisex, tallas XS XXL, comprar, tienda online" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+      <!-- Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-YW9ESBLM3P"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-YW9ESBLM3P');
+      </script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -451,12 +463,20 @@
 
     <!-- Barra de categorías (se rellena vía JS) -->
     <nav class="filters">
-      <div
-        class="container tabs"
-        id="catBar"
-        role="tablist"
-        aria-label="Categorías"
-      ></div>
+      <div class="container tabs" style="display:flex;align-items:center;justify-content:space-between;">
+        <div id="catBar" role="tablist" aria-label="Categorías" style="flex:1;display:flex;"></div>
+        <button id="openFilters" class="btn btn-ghost d-md-none" type="button" aria-label="Más filtros" style="margin-left:1rem;font-size:1.5rem;">
+          <i class="bi bi-sliders"></i>
+        </button>
+      </div>
+      <!-- Modal de filtros -->
+      <div id="filtersModal" class="modal" tabindex="-1" style="display:none;position:fixed;z-index:9999;top:0;left:0;width:100vw;height:100vh;background:rgba(27,21,55,0.85);backdrop-filter:blur(8px);align-items:center;justify-content:center;">
+        <div style="background:var(--night);border-radius:var(--r-lg);padding:2rem 1.2rem;max-width:340px;width:90vw;margin:auto;box-shadow:var(--shadow);text-align:center;">
+          <h2 style="font-size:1.3rem;font-weight:800;margin-bottom:1.2rem;color:var(--brand);">Filtrar por categoría</h2>
+          <div id="modalCatBar" style="display:flex;flex-direction:column;gap:1rem;margin-bottom:1.5rem;"></div>
+          <button id="closeFilters" class="btn btn-ghost" type="button" style="width:100%;margin-top:0.5rem;">Cerrar</button>
+        </div>
+      </div>
     </nav>
 
     <!-- Catálogo -->

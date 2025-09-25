@@ -4,9 +4,10 @@
 // === Config ===
 const WHATSAPP_PHONE = "521000000000"; // tu número
 const CATEGORY_LABELS = {
-  kimetsu: "Kimetsu",
+  kimetsu: "Kimetsu No Yaiba",
   tokyo: "Tokyo Revengers",
-  otros: "Otros artículos"
+  otros: "Otros artículos",
+  "demon-hunters": "K-Pop Demon Hunters"
 };
 
 // === Helpers ===
@@ -22,6 +23,10 @@ document.addEventListener("DOMContentLoaded", async () => {
   const catalog = $("#catalog");
   const tpl = $("#card-tpl");
   const catBar = $("#catBar");
+  const modalCatBar = $("#modalCatBar");
+  const filtersModal = $("#filtersModal");
+  const openFilters = $("#openFilters");
+  const closeFilters = $("#closeFilters");
 
   const params = new URLSearchParams(location.search);
   const startCat = params.get("cat") || "all";
@@ -84,20 +89,43 @@ document.addEventListener("DOMContentLoaded", async () => {
   const counts = products.reduce((acc, p) => ((acc[p.category] = (acc[p.category] || 0) + 1), acc), {});
   const cats = ["all", ...Object.keys(counts)];
 
+  // Solo 'Todos' en barra principal (móvil), los demás en modal
   cats.forEach(cat => {
     const btn = document.createElement("button");
     btn.className = "tab-btn";
     btn.type = "button";
     btn.setAttribute("role", "tab");
     btn.dataset.cat = cat;
-
-    const label = cat === "all" ? "Todas" : (CATEGORY_LABELS[cat] || titleCase(cat));
+  const label = cat === "all" ? "Todos los productos" : (CATEGORY_LABELS[cat] || titleCase(cat));
     const qty = cat === "all" ? products.length : counts[cat];
-
     btn.innerHTML = `${label} <span class="tab-count">${qty}</span>`;
     if (cat === startCat) btn.setAttribute("aria-selected", "true");
-    catBar.appendChild(btn);
+    if (cat === "all") {
+      catBar.appendChild(btn);
+    } else {
+      modalCatBar.appendChild(btn);
+    }
   });
+
+  // Abrir/cerrar modal filtros en móvil
+  if (openFilters && filtersModal && closeFilters) {
+    openFilters.addEventListener("click", () => {
+      filtersModal.style.display = "flex";
+    });
+    closeFilters.addEventListener("click", () => {
+      filtersModal.style.display = "none";
+    });
+    filtersModal.addEventListener("click", e => {
+      if (e.target === filtersModal) filtersModal.style.display = "none";
+    });
+    // Filtro desde modal
+    modalCatBar.addEventListener("click", e => {
+      const btn = e.target.closest(".tab-btn");
+      if (!btn) return;
+      filtersModal.style.display = "none";
+      applyFilter(btn.dataset.cat, true);
+    });
+  }
 
   // 4) Filtro
   function applyFilter(cat, scrollToFirst = false) {
@@ -106,9 +134,26 @@ document.addEventListener("DOMContentLoaded", async () => {
     const u = new URL(location.href);
     if (cat === "all") u.searchParams.delete("cat"); else u.searchParams.set("cat", cat);
     history.replaceState({}, "", u);
+
+    // Mostrar/ocultar productos y títulos
+    $$(".card").forEach(card => {
+      if (cat === "all" || card.dataset.cat === cat) {
+        card.style.display = "";
+      } else {
+        card.style.display = "none";
+      }
+    });
+    $$(".cat-title").forEach(title => {
+      if (cat === "all" || title.textContent === (CATEGORY_LABELS[cat] || titleCase(cat))) {
+        title.style.display = "";
+      } else {
+        title.style.display = "none";
+      }
+    });
+
     // Scroll al primer producto de la categoría
     if (scrollToFirst && cat !== "all") {
-      const first = $$(".item").find(card => !card.classList.contains("hidden"));
+      const first = $$(".card").find(card => card.style.display !== "none");
       if (first) {
         first.scrollIntoView({behavior: "smooth", block: "center"});
       }
