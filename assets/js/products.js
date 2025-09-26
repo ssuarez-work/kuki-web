@@ -89,22 +89,25 @@ document.addEventListener("DOMContentLoaded", async () => {
   const counts = products.reduce((acc, p) => ((acc[p.category] = (acc[p.category] || 0) + 1), acc), {});
   const cats = ["all", ...Object.keys(counts)];
 
-  // Solo 'Todos' en barra principal (móvil), los demás en modal
+  // Mostrar todos los botones de categoría en la barra principal en escritorio
   cats.forEach(cat => {
     const btn = document.createElement("button");
     btn.className = "tab-btn";
     btn.type = "button";
     btn.setAttribute("role", "tab");
     btn.dataset.cat = cat;
-  const label = cat === "all" ? "Todos los productos" : (CATEGORY_LABELS[cat] || titleCase(cat));
+    const label = cat === "all" ? "Todos los productos" : (CATEGORY_LABELS[cat] || titleCase(cat));
     const qty = cat === "all" ? products.length : counts[cat];
     btn.innerHTML = `${label} <span class="tab-count">${qty}</span>`;
     if (cat === startCat) btn.setAttribute("aria-selected", "true");
+    // Solo mostrar todos en desktop, y solo 'Todos' en móvil
     if (cat === "all") {
       catBar.appendChild(btn);
     } else {
-      modalCatBar.appendChild(btn);
+      btn.classList.add("d-none", "d-md-inline-flex");
+      catBar.appendChild(btn);
     }
+    modalCatBar.appendChild(btn.cloneNode(true));
   });
 
   // Abrir/cerrar modal filtros en móvil

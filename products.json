@@ -5,8 +5,11 @@
     "category": "kimetsu",
     "sizes": "Tallas XS–XXL",
     "img": "assets/img/products/kuki-playera-tanjiro-manga.webp",
-    "tags": ["Kimetsu", "Unisex"],
-  "price": 229,
+    "tags": [
+      "Kimetsu",
+      "Unisex"
+    ],
+    "price": 229,
     "desc": "¡Luce el estilo de Tanjiro con esta playera de algodón premium! Estampado de alta calidad y comodidad total para fans exigentes. ¡Hazla tuya y destaca tu pasión por Kimetsu!"
   },
   {
@@ -15,17 +18,23 @@
     "category": "kimetsu",
     "sizes": "Tallas XS–XXL",
     "img": "assets/img/products/kuki-playera-nezuko-manga.webp",
-    "tags": ["Kimetsu", "Unisex"],
-  "price": 229,
+    "tags": [
+      "Kimetsu",
+      "Unisex"
+    ],
+    "price": 229,
     "desc": "¡Destaca con la ternura y fuerza de Nezuko! Playera de algodón premium, cómoda y con estampado vibrante. Ideal para fans que quieren un look único y especial. ¡Hazla tuya y lleva a Nezuko contigo!"
   },
-    {
+  {
     "id": "kuki-playera-zenitsu-manga",
     "name": "Playera Zenitsu Agatsuma",
     "category": "kimetsu",
     "sizes": "Tallas XS–XXL",
     "img": "assets/img/products/kuki-playera-zenitsu-manga.webp",
-    "tags": ["Kimetsu", "Unisex"],
+    "tags": [
+      "Kimetsu",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "¡Despierta tu lado más electrizante con la playera de Zenitsu! Algodón premium, estampado vibrante y comodidad total para fans que quieren destacar. ¡No te quedes sin la tuya!"
   },
@@ -34,90 +43,117 @@
     "name": "Playera Inosuke",
     "category": "kimetsu",
     "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/kuki-playera-inosuke-manga.webp",
-    "tags": ["Kimetsu", "Unisex"],
-  "price": 229,
-  "desc": "Siente la energía de Inosuke con esta playera exclusiva. Algodón suave, estampado resistente y diseño único para verdaderos fans. ¡No te quedes sin la tuya!"
+    "img": "assets/img/products/kuki-playera-inosuke-manga.webp",
+    "tags": [
+      "Kimetsu",
+      "Unisex"
+    ],
+    "price": 229,
+    "desc": "Siente la energía de Inosuke con esta playera exclusiva. Algodón suave, estampado resistente y diseño único para verdaderos fans. ¡No te quedes sin la tuya!"
   },
   {
     "id": "kuki-playera-giyu-manga",
     "name": "Playera Giyu Tomioka",
     "category": "kimetsu",
     "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/kuki-playera-giyu-manga.webp",
-    "tags": ["Kimetsu", "Pilar del Agua"],
-  "price": 229,
-  "desc": "Demuestra tu admiración por Giyu Tomioka con esta playera premium. Perfecta para cualquier ocasión, con un estampado que resalta tu fanatismo. ¡Atrévete a destacar!"
+    "img": "assets/img/products/kuki-playera-giyu-manga.webp",
+    "tags": [
+      "Kimetsu",
+      "Pilar del Agua"
+    ],
+    "price": 229,
+    "desc": "Demuestra tu admiración por Giyu Tomioka con esta playera premium. Perfecta para cualquier ocasión, con un estampado que resalta tu fanatismo. ¡Atrévete a destacar!"
   },
   {
     "id": "kuki-playera-shinobu-manga",
     "name": "Playera Shinobu Kocho",
     "category": "kimetsu",
     "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/kuki-playera-shinobu-manga.webp",
-    "tags": ["Kimetsu", "Pilar del Insecto"],
-  "price": 229,
-  "desc": "Elegancia y estilo en una sola prenda. Lleva a Shinobu Kocho contigo y presume un diseño exclusivo, cómodo y duradero. ¡Hazla parte de tu colección!"
+    "img": "assets/img/products/kuki-playera-shinobu-manga.webp",
+    "tags": [
+      "Kimetsu",
+      "Pilar del Insecto"
+    ],
+    "price": 229,
+    "desc": "Elegancia y estilo en una sola prenda. Lleva a Shinobu Kocho contigo y presume un diseño exclusivo, cómodo y duradero. ¡Hazla parte de tu colección!"
   },
   {
     "id": "kuki-playera-kyorojuro-manga",
     "name": "Playera Kyojuro Rengoku",
     "category": "kimetsu",
     "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/kuki-playera-rengoku-manga.webp",
-    "tags": ["Kimetsu", "Pilar de la Llama"],
-  "price": 229,
-  "desc": "Enciende tu look con la fuerza de Rengoku. Playera de algodón premium, ideal para fans que buscan calidad y un diseño que inspira. ¡Consíguela ahora!"
+    "img": "assets/img/products/kuki-playera-rengoku-manga.webp",
+    "tags": [
+      "Kimetsu",
+      "Pilar de la Llama"
+    ],
+    "price": 229,
+    "desc": "Enciende tu look con la fuerza de Rengoku. Playera de algodón premium, ideal para fans que buscan calidad y un diseño que inspira. ¡Consíguela ahora!"
   },
   {
     "id": "kuki-playera-tengen-manga",
     "name": "Playera Tengen Uzui",
     "category": "kimetsu",
     "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/kuki-playera-tengen-manga.webp",
-    "tags": ["Kimetsu", "Pilar del Sonido"],
-  "price": 229,
-  "desc": "Destaca con el estilo único de Tengen Uzui. Playera cómoda, estampado vibrante y calidad superior. ¡Hazte notar y lleva tu fanatismo al siguiente nivel!"
+    "img": "assets/img/products/kuki-playera-tengen-manga.webp",
+    "tags": [
+      "Kimetsu",
+      "Pilar del Sonido"
+    ],
+    "price": 229,
+    "desc": "Destaca con el estilo único de Tengen Uzui. Playera cómoda, estampado vibrante y calidad superior. ¡Hazte notar y lleva tu fanatismo al siguiente nivel!"
   },
   {
     "id": "kuki-playera-mitsuri-manga",
     "name": "Playera Mitsuri Kanroji",
     "category": "kimetsu",
     "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/kuki-playera-mitsuri-manga.webp",
-    "tags": ["Kimetsu", "Pilar del Amor"],
-  "price": 229,
-  "desc": "Dale un toque de amor y color a tu outfit con Mitsuri Kanroji. Playera premium, suave y resistente, perfecta para fans auténticos. ¡No la dejes pasar!"
+    "img": "assets/img/products/kuki-playera-mitsuri-manga.webp",
+    "tags": [
+      "Kimetsu",
+      "Pilar del Amor"
+    ],
+    "price": 229,
+    "desc": "Dale un toque de amor y color a tu outfit con Mitsuri Kanroji. Playera premium, suave y resistente, perfecta para fans auténticos. ¡No la dejes pasar!"
   },
   {
     "id": "kuki-playera-muichiro-manga",
     "name": "Playera Muichiro Tokito",
     "category": "kimetsu",
     "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/kuki-playera-muichiro-manga.webp",
-    "tags": ["Kimetsu", "Pilar de la Niebla"],
-  "price": 229,
-  "desc": "Siente la niebla y el misterio de Muichiro Tokito en esta playera exclusiva. Calidad, comodidad y diseño para verdaderos coleccionistas. ¡Hazla tuya hoy!"
+    "img": "assets/img/products/kuki-playera-muichiro-manga.webp",
+    "tags": [
+      "Kimetsu",
+      "Pilar de la Niebla"
+    ],
+    "price": 229,
+    "desc": "Siente la niebla y el misterio de Muichiro Tokito en esta playera exclusiva. Calidad, comodidad y diseño para verdaderos coleccionistas. ¡Hazla tuya hoy!"
   },
   {
     "id": "kuki-playera-sanemi-manga",
     "name": "Playera Sanemi Shinazugawa",
     "category": "kimetsu",
     "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/kuki-playera-sanemi-manga.webp",
-    "tags": ["Kimetsu", "Pilar del Viento"],
-  "price": 229,
-  "desc": "Atrévete a destacar con la fuerza de Sanemi. Playera cómoda, resistente y con un diseño que te hará sobresalir. ¡Ideal para fans de Kimetsu!"
+    "img": "assets/img/products/kuki-playera-sanemi-manga.webp",
+    "tags": [
+      "Kimetsu",
+      "Pilar del Viento"
+    ],
+    "price": 229,
+    "desc": "Atrévete a destacar con la fuerza de Sanemi. Playera cómoda, resistente y con un diseño que te hará sobresalir. ¡Ideal para fans de Kimetsu!"
   },
   {
     "id": "kuki-playera-obanai-manga",
     "name": "Playera Obanai Iguro",
     "category": "kimetsu",
     "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/kuki-playera-obanai-manga.webp",
-    "tags": ["Kimetsu", "Pilar de la Serpiente"],
-  "price": 229,
-  "desc": "Luce el poder de Obanai Iguro con esta playera de edición especial. Algodón premium y estampado duradero para acompañarte en cada aventura. ¡Cómprala ya!"
+    "img": "assets/img/products/kuki-playera-obanai-manga.webp",
+    "tags": [
+      "Kimetsu",
+      "Pilar de la Serpiente"
+    ],
+    "price": 229,
+    "desc": "Luce el poder de Obanai Iguro con esta playera de edición especial. Algodón premium y estampado duradero para acompañarte en cada aventura. ¡Cómprala ya!"
   },
   {
     "id": "kuki-playera-gyomei-manga",
@@ -125,10 +161,255 @@
     "category": "kimetsu",
     "sizes": "Tallas XS–XXL",
     "img": "assets/img/products/kuki-playera-gyomei-manga.webp",
-    "tags": ["Kimetsu", "Pilar de la Roca"],
+    "tags": [
+      "Kimetsu",
+      "Pilar de la Roca"
+    ],
     "price": 229,
     "desc": "Siente la fortaleza de Gyomei Himejima en cada detalle. Playera premium, suave y con estampado de alta calidad. ¡Hazla parte de tu guardarropa!"
-
+  },
+   {
+    "id": "kuki-totebag-tanjiro",
+     "name": "Totebag Tanjiro Kamado",
+    "category": "kimetsu",
+    "type": "totebag",
+      "img": "assets/img/products/demon-slayer/kuki-totebag-tanjiro.png",
+    "price": 99,
+     "desc": "Totebag de Tanjiro Kamado, resistente y con diseño inspirado en el protagonista de Kimetsu. Lleva tu pasión por el anime a todos lados con estilo y comodidad."
+  },
+  {
+    "id": "kuki-totebag-zenitsu",
+     "name": "Totebag Zenitsu Agatsuma",
+    "category": "kimetsu",
+    "type": "totebag",
+      "img": "assets/img/products/demon-slayer/kuki-totebag-zenitsu.png",
+    "price": 99,
+     "desc": "Totebag de Zenitsu Agatsuma, perfecta para fans que buscan un accesorio vibrante y útil. Destaca tu fanatismo y lleva tus cosas con seguridad."
+  },
+  {
+    "id": "kuki-totebag-inosuke",
+     "name": "Totebag Inosuke Hashibira",
+    "category": "kimetsu",
+    "type": "totebag",
+      "img": "assets/img/products/demon-slayer/kuki-totebag-inosuke.png",
+    "price": 99,
+     "desc": "Totebag de Inosuke Hashibira, con diseño salvaje y original. Ideal para quienes quieren destacar y llevar el espíritu de Inosuke a todas partes."
+  },
+  {
+    "id": "kuki-totebag-mitsuri",
+     "name": "Totebag Mitsuri Kanroji",
+    "category": "kimetsu",
+    "type": "totebag",
+      "img": "assets/img/products/demon-slayer/kuki-totebag-mitsuri.png",
+    "price": 99,
+     "desc": "Totebag de Mitsuri Kanroji, colorida y resistente. Lleva el amor y la alegría del Pilar del Amor en tu día a día."
+  },
+  {
+    "id": "kuki-totebag-mitsuri-2",
+     "name": "Totebag Mitsuri Kanroji 2",
+    "category": "kimetsu",
+    "type": "totebag",
+      "img": "assets/img/products/demon-slayer/kuki-totebag-mitsuri-2.png",
+    "price": 99,
+     "desc": "Totebag alternativa de Mitsuri Kanroji, con diseño dulce y único. Perfecta para quienes buscan algo diferente y especial."
+  },
+  {
+    "id": "kuki-totebag-rengoku",
+     "name": "Totebag Kyojuro Rengoku",
+    "category": "kimetsu",
+    "type": "totebag",
+      "img": "assets/img/products/demon-slayer/kuki-totebag-rengoku.png",
+    "price": 99,
+     "desc": "Totebag de Kyojuro Rengoku, con diseño ardiente y resistente. Lleva la pasión del Pilar de la Llama contigo."
+  },
+  {
+    "id": "kuki-totebag-giyu",
+     "name": "Totebag Giyu Tomioka",
+    "category": "kimetsu",
+    "type": "totebag",
+      "img": "assets/img/products/demon-slayer/kuki-totebag-giyu.png",
+    "price": 99,
+     "desc": "Totebag de Giyu Tomioka, elegante y práctica. Ideal para quienes admiran al Pilar del Agua y buscan un accesorio útil."
+  },
+  {
+    "id": "kuki-totebag-shinobu",
+     "name": "Totebag Shinobu Kocho",
+    "category": "kimetsu",
+    "type": "totebag",
+      "img": "assets/img/products/demon-slayer/kuki-totebag-shinobu.png",
+    "price": 99,
+     "desc": "Totebag de Shinobu Kocho, con diseño delicado y resistente. Lleva la elegancia del Pilar del Insecto a tu rutina."
+  },
+  {
+    "id": "kuki-totebag-muichiro",
+     "name": "Totebag Muichiro Tokito",
+    "category": "kimetsu",
+    "type": "totebag",
+      "img": "assets/img/products/demon-slayer/kuki-totebag-muichiro.png",
+    "price": 99,
+     "desc": "Totebag de Muichiro Tokito, misteriosa y práctica. Perfecta para quienes buscan un toque de niebla en su estilo."
+  },
+  {
+    "id": "kuki-totebag-obanai",
+     "name": "Totebag Obanai Iguro",
+    "category": "kimetsu",
+    "type": "totebag",
+      "img": "assets/img/products/demon-slayer/kuki-totebag-obanai.png",
+    "price": 99,
+     "desc": "Totebag de Obanai Iguro, con diseño intrigante y resistente. Lleva el misterio del Pilar de la Serpiente contigo."
+  },
+  {
+    "id": "kuki-totebag-gyomei",
+     "name": "Totebag Gyomei Himejima",
+    "category": "kimetsu",
+    "type": "totebag",
+      "img": "assets/img/products/demon-slayer/kuki-totebag-gyomei.png",
+    "price": 99,
+     "desc": "Totebag de Gyomei Himejima, fuerte y duradera. Lleva la fortaleza del Pilar de la Roca en cada salida."
+  },
+  {
+    "id": "kuki-totebag-sanemi",
+     "name": "Totebag Sanemi Shinazugawa",
+    "category": "kimetsu",
+    "type": "totebag",
+      "img": "assets/img/products/demon-slayer/kuki-totebag-sanemi.png",
+    "price": 99,
+     "desc": "Totebag de Sanemi Shinazugawa, atrevida y resistente. Lleva el viento y la energía del Pilar del Viento contigo."
+  },
+  {
+    "id": "kuki-totebag-douma",
+     "name": "Totebag Douma",
+    "category": "kimetsu",
+    "type": "totebag",
+      "img": "assets/img/products/demon-slayer/kuki-totebag-douma.png",
+    "price": 99,
+     "desc": "Totebag de Douma, con diseño frío y original. Ideal para quienes buscan un accesorio único y llamativo."
+  },
+  {
+    "id": "kuki-parche-douma",
+    "name": "Parche DTF Douma",
+    "category": "kimetsu",
+    "type": "parche-dtf",
+    "img": "assets/img/products/demon-slayer/kuki-parche-douma.png",
+    "price": 49,
+    "desc": "Haz que tu prenda destaque con Douma. Parche DTF Textil (no bordado), fácil de colocar tú mismo. Renueva tu ropa y presume al demonio más frío."
+  },
+  {
+    "id": "kuki-parche-tanjiro",
+    "name": "Parche DTF Tanjiro",
+    "category": "kimetsu",
+    "type": "parche-dtf",
+    "img": "assets/img/products/demon-slayer/kuki-parche-tanjiro.png",
+    "price": 49,
+    "desc": "¡Exprésate con Tanjiro! Parche DTF Textil (no bordado), se adhiere fácilmente en casa con una plancha. Personaliza tu ropa tú mismo y lleva la fuerza de Tanjiro a tu estilo."
+  },
+  {
+    "id": "kuki-parche-nezuko",
+    "name": "Parche DTF Nezuko",
+    "category": "kimetsu",
+    "type": "parche-dtf",
+    "img": "assets/img/products/demon-slayer/kuki-parche-nezuko.png",
+    "price": 49,
+    "desc": "Lleva la ternura y fuerza de Nezuko. Parche DTF Textil (no bordado), fácil de adherir tú mismo. Haz que tu prenda destaque con el poder de Nezuko."
+  },
+  {
+    "id": "kuki-parche-zenitsu",
+    "name": "Parche DTF Zenitsu",
+    "category": "kimetsu",
+    "type": "parche-dtf",
+    "img": "assets/img/products/demon-slayer/kuki-parche-zenitsu.png",
+    "price": 49,
+    "desc": "Destaca con Zenitsu y su energía. Parche DTF Textil (no bordado), se adhiere fácilmente en casa. Personaliza tu ropa y presume tu lado más electrizante."
+  },
+  {
+    "id": "kuki-parche-inosuke",
+    "name": "Parche DTF Inosuke",
+    "category": "kimetsu",
+    "type": "parche-dtf",
+    "img": "assets/img/products/demon-slayer/kuki-parche-inosuke.png",
+    "price": 49,
+    "desc": "Lleva la energía de Inosuke. Parche DTF Textil (no bordado), fácil de adherir tú mismo. Haz que tu ropa refleje tu lado más salvaje."
+  },
+  {
+    "id": "kuki-parche-mitsuri",
+    "name": "Parche DTF Mitsuri",
+    "category": "kimetsu",
+    "type": "parche-dtf",
+    "img": "assets/img/products/demon-slayer/kuki-parche-mitsuri.png",
+    "price": 49,
+    "desc": "Agrega color y amor con Mitsuri. Parche DTF Textil (no bordado), se adhiere fácilmente en casa. Personaliza tu prenda y presume al Pilar del Amor."
+  },
+  {
+    "id": "kuki-parche-mitsuri-2",
+    "name": "Parche DTF Mitsuri 2",
+    "category": "kimetsu",
+    "type": "parche-dtf",
+    "img": "assets/img/products/demon-slayer/kuki-parche-mitsuri-2.png",
+    "price": 49,
+    "desc": "Dale un toque único con Mitsuri. Parche DTF Textil (no bordado), fácil de colocar tú mismo. Renueva tu ropa y destaca con el diseño más dulce."
+  },
+  {
+    "id": "kuki-parche-rengoku",
+    "name": "Parche DTF Rengoku",
+    "category": "kimetsu",
+    "type": "parche-dtf",
+    "img": "assets/img/products/demon-slayer/kuki-parche-rengoku.png",
+    "price": 49,
+    "desc": "Enciende tu estilo con Rengoku. Parche DTF Textil (no bordado), fácil de colocar tú mismo. Haz que tu ropa refleje la pasión del Pilar de la Llama."
+  },
+  {
+    "id": "kuki-parche-giyu",
+    "name": "Parche DTF Giyu",
+    "category": "kimetsu",
+    "type": "parche-dtf",
+    "img": "assets/img/products/demon-slayer/kuki-parche-giyu.png",
+    "price": 49,
+    "desc": "Demuestra tu serenidad con Giyu. Parche DTF Textil (no bordado), fácil de colocar en casa. Renueva tu ropa y presume al Pilar del Agua donde quieras."
+  },
+  {
+    "id": "kuki-parche-shinobu",
+    "name": "Parche DTF Shinobu",
+    "category": "kimetsu",
+    "type": "parche-dtf",
+    "img": "assets/img/products/demon-slayer/kuki-parche-shinobu.png",
+    "price": 49,
+    "desc": "Agrega elegancia con Shinobu. Parche DTF Textil (no bordado), fácil de colocar tú mismo. Renueva tu ropa y presume al Pilar del Insecto."
+  },
+  {
+    "id": "kuki-parche-muichiro",
+    "name": "Parche DTF Muichiro",
+    "category": "kimetsu",
+    "type": "parche-dtf",
+    "img": "assets/img/products/demon-slayer/kuki-parche-muichiro.png",
+    "price": 49,
+    "desc": "Agrega misterio con Muichiro. Parche DTF Textil (no bordado), se adhiere fácilmente en casa. Personaliza tu ropa y presume al Pilar de la Niebla."
+  },
+  {
+    "id": "kuki-parche-obanai",
+    "name": "Parche DTF Obanai",
+    "category": "kimetsu",
+    "type": "parche-dtf",
+    "img": "assets/img/products/demon-slayer/kuki-parche-obanai.png",
+    "price": 49,
+    "desc": "Presume el misterio de Obanai. Parche DTF Textil (no bordado), se adhiere fácilmente en casa. Personaliza tu ropa y destaca con el Pilar de la Serpiente."
+  },
+  {
+    "id": "kuki-parche-gyomei",
+    "name": "Parche DTF Gyomei",
+    "category": "kimetsu",
+    "type": "parche-dtf",
+    "img": "assets/img/products/demon-slayer/kuki-parche-gyomei.png",
+    "price": 49,
+    "desc": "Siente la fortaleza de Gyomei. Parche DTF Textil (no bordado), se adhiere fácilmente en casa. Personaliza tu ropa y destaca con el Pilar de la Roca."
+  },
+  {
+    "id": "kuki-parche-sanemi",
+    "name": "Parche DTF Sanemi",
+    "category": "kimetsu",
+    "type": "parche-dtf",
+    "img": "assets/img/products/demon-slayer/kuki-parche-sanemi.png",
+    "price": 49,
+    "desc": "Atrévete a destacar con Sanemi. Parche DTF Textil (no bordado), se adhiere fácilmente en casa. Personaliza tu prenda y presume al Pilar del Viento."
   },
   {
     "id": "kuki-playera-luffy-1",
@@ -136,7 +417,10 @@
     "category": "one-piece",
     "sizes": "Tallas XS–XXL",
     "img": "assets/img/products/one-piece/kuki-playera-luffy-1.webp",
-    "tags": ["One Piece", "Unisex"],
+    "tags": [
+      "One Piece",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "¡Luce el espíritu aventurero de Luffy! Playera de algodón premium, cómoda y con estampado vibrante. Ideal para fans de One Piece que quieren destacar su pasión por el Rey de los Piratas."
   },
@@ -146,7 +430,10 @@
     "category": "one-piece",
     "sizes": "Tallas XS–XXL",
     "img": "assets/img/products/one-piece/kuki-playera-zoro-1.webp",
-    "tags": ["One Piece", "Unisex"],
+    "tags": [
+      "One Piece",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "Demuestra tu admiración por Zoro con esta playera premium. Perfecta para cualquier ocasión, con un estampado que resalta tu fanatismo por el espadachín de One Piece."
   },
@@ -156,7 +443,10 @@
     "category": "one-piece",
     "sizes": "Tallas XS–XXL",
     "img": "assets/img/products/one-piece/kuki-playera-sanji-1.webp",
-    "tags": ["One Piece", "Unisex"],
+    "tags": [
+      "One Piece",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "Luce el estilo de Sanji con esta playera de algodón premium. Estampado de alta calidad y comodidad total para fans exigentes de One Piece."
   },
@@ -166,7 +456,10 @@
     "category": "one-piece",
     "sizes": "Tallas XS–XXL",
     "img": "assets/img/products/one-piece/kuki-playera-sabo-1.webp",
-    "tags": ["One Piece", "Unisex"],
+    "tags": [
+      "One Piece",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "¡Siente el poder de Sabo! Playera exclusiva, algodón suave y estampado duradero. Perfecta para fans de One Piece que buscan calidad y diseño único."
   },
@@ -176,7 +469,10 @@
     "category": "one-piece",
     "sizes": "Tallas XS–XXL",
     "img": "assets/img/products/one-piece/kuki-playera-law-1.png",
-    "tags": ["One Piece", "Unisex"],
+    "tags": [
+      "One Piece",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "Lleva el estilo de Trafalgar Law a otro nivel. Playera premium, cómoda y con estampado vibrante. ¡Hazla tuya y destaca tu pasión por One Piece!"
   },
@@ -186,7 +482,10 @@
     "category": "one-piece",
     "sizes": "Tallas XS–XXL",
     "img": "assets/img/products/one-piece/kuki-playera-luffy-2.webp",
-    "tags": ["One Piece", "Unisex"],
+    "tags": [
+      "One Piece",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "Siente la energía de Luffy con esta playera exclusiva. Algodón suave, estampado resistente y diseño único para verdaderos fans de One Piece. ¡No te quedes sin la tuya!"
   },
@@ -196,7 +495,10 @@
     "category": "one-piece",
     "sizes": "Tallas XS–XXL",
     "img": "assets/img/products/one-piece/kuki-playera-luffy-3.webp",
-    "tags": ["One Piece", "Unisex"],
+    "tags": [
+      "One Piece",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "¡Atrévete a destacar con la recompensa de Luffy! Playera cómoda, estampado vibrante y calidad superior. Perfecta para los fans de One Piece."
   },
@@ -206,7 +508,10 @@
     "category": "one-piece",
     "sizes": "Tallas XS–XXL",
     "img": "assets/img/products/one-piece/kuki-playera-luffy-4.webp",
-    "tags": ["One Piece", "Unisex"],
+    "tags": [
+      "One Piece",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "Salta a la aventura con Luffy. Playera premium, suave y resistente, perfecta para fans auténticos de One Piece. ¡No la dejes pasar!"
   },
@@ -216,7 +521,10 @@
     "category": "one-piece",
     "sizes": "Tallas XS–XXL",
     "img": "assets/img/products/one-piece/kuki-playera-luffy-5.webp",
-    "tags": ["One Piece", "Unisex"],
+    "tags": [
+      "One Piece",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "¡Desata el poder de Luffy Gear! Playera de algodón premium, estampado de alta calidad y comodidad total para fans exigentes."
   },
@@ -226,7 +534,10 @@
     "category": "one-piece",
     "sizes": "Tallas XS–XXL",
     "img": "assets/img/products/one-piece/kuki-playera-luffy-6.webp",
-    "tags": ["One Piece", "Unisex"],
+    "tags": [
+      "One Piece",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "Lleva la sonrisa de Luffy a todas partes. Playera cómoda, resistente y con un diseño que te hará sobresalir. ¡Ideal para fans de One Piece!"
   },
@@ -236,7 +547,10 @@
     "category": "one-piece",
     "sizes": "Tallas XS–XXL",
     "img": "assets/img/products/one-piece/kuki-playera-luffy-7.webp",
-    "tags": ["One Piece", "Unisex"],
+    "tags": [
+      "One Piece",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "Únete a la tripulación de Luffy con esta playera exclusiva. Algodón premium y estampado duradero para acompañarte en cada aventura."
   },
@@ -246,7 +560,10 @@
     "category": "one-piece",
     "sizes": "Tallas XS–XXL",
     "img": "assets/img/products/one-piece/kuki-playera-zoro-2.webp",
-    "tags": ["One Piece", "Unisex"],
+    "tags": [
+      "One Piece",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "¡Recompensa asegurada! Playera de Zoro con diseño wanted, algodón premium y estampado vibrante. ¡Hazla tuya y presume tu fanatismo!"
   },
@@ -256,187 +573,244 @@
     "category": "one-piece",
     "sizes": "Tallas XS–XXL",
     "img": "assets/img/products/one-piece/kuki-playera-zoro-3.webp",
-    "tags": ["One Piece", "Unisex"],
+    "tags": [
+      "One Piece",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "Únete a la tripulación de Zoro. Playera cómoda, resistente y con diseño exclusivo para verdaderos fans de One Piece."
   },
   {
-  "id": "kuki-playera-huntrix-1",
-  "name": "Playera Huntrix 1",
-  "category": "demon-hunters",
-  "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-1.webp",
-  "tags": ["Huntrix", "Unisex"],
-  "price": 229,
-  "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
-  },
-  {
-  "id": "kuki-playera-huntrix-2",
-  "name": "Playera Huntrix 2",
-  "category": "demon-hunters",
-  "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-2.webp",
-    "tags": ["Huntrix", "Unisex"],
+    "id": "kuki-playera-huntrix-1",
+    "name": "Playera Huntrix 1",
+    "category": "demon-hunters",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-1.webp",
+    "tags": [
+      "Huntrix",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
   },
   {
-  "id": "kuki-playera-huntrix-3",
-  "name": "Playera Huntrix 3",
-  "category": "demon-hunters",
-  "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-3.webp",
-    "tags": ["Huntrix", "Unisex"],
+    "id": "kuki-playera-huntrix-2",
+    "name": "Playera Huntrix 2",
+    "category": "demon-hunters",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-2.webp",
+    "tags": [
+      "Huntrix",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
   },
   {
-  "id": "kuki-playera-huntrix-4",
-  "name": "Playera Huntrix 4",
-  "category": "demon-hunters",
-  "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-4.webp",
-    "tags": ["Huntrix", "Unisex"],
+    "id": "kuki-playera-huntrix-3",
+    "name": "Playera Huntrix 3",
+    "category": "demon-hunters",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-3.webp",
+    "tags": [
+      "Huntrix",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
   },
   {
-  "id": "kuki-playera-huntrix-5",
-  "name": "Playera Huntrix 5",
-  "category": "demon-hunters",
-  "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-5.webp",
-    "tags": ["Huntrix", "Unisex"],
+    "id": "kuki-playera-huntrix-4",
+    "name": "Playera Huntrix 4",
+    "category": "demon-hunters",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-4.webp",
+    "tags": [
+      "Huntrix",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
   },
   {
-  "id": "kuki-playera-huntrix-6",
-  "name": "Playera Huntrix 6",
-  "category": "demon-hunters",
-  "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-6.webp",
-    "tags": ["Huntrix", "Unisex"],
+    "id": "kuki-playera-huntrix-5",
+    "name": "Playera Huntrix 5",
+    "category": "demon-hunters",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-5.webp",
+    "tags": [
+      "Huntrix",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
   },
   {
-  "id": "kuki-playera-huntrix-7",
-  "name": "Playera Huntrix 7",
-  "category": "demon-hunters",
-  "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-7.webp",
-    "tags": ["Huntrix", "Unisex"],
+    "id": "kuki-playera-huntrix-6",
+    "name": "Playera Huntrix 6",
+    "category": "demon-hunters",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-6.webp",
+    "tags": [
+      "Huntrix",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
   },
   {
-  "id": "kuki-playera-huntrix-8",
-  "name": "Playera Huntrix 8",
-  "category": "demon-hunters",
-  "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-8.webp",
-    "tags": ["Huntrix", "Unisex"],
+    "id": "kuki-playera-huntrix-7",
+    "name": "Playera Huntrix 7",
+    "category": "demon-hunters",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-7.webp",
+    "tags": [
+      "Huntrix",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
   },
   {
-  "id": "kuki-playera-huntrix-9",
-  "name": "Playera Huntrix 9",
-  "category": "demon-hunters",
-  "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-9.webp",
-    "tags": ["Huntrix", "Unisex"],
+    "id": "kuki-playera-huntrix-8",
+    "name": "Playera Huntrix 8",
+    "category": "demon-hunters",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-8.webp",
+    "tags": [
+      "Huntrix",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
   },
   {
-  "id": "kuki-playera-huntrix-10",
-  "name": "Playera Huntrix 10",
-  "category": "demon-hunters",
-  "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-10.webp",
-    "tags": ["Huntrix", "Unisex"],
+    "id": "kuki-playera-huntrix-9",
+    "name": "Playera Huntrix 9",
+    "category": "demon-hunters",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-9.webp",
+    "tags": [
+      "Huntrix",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
   },
   {
-  "id": "kuki-playera-huntrix-11",
-  "name": "Playera Huntrix 11",
-  "category": "demon-hunters",
-  "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-11.webp",
-    "tags": ["Huntrix", "Unisex"],
+    "id": "kuki-playera-huntrix-10",
+    "name": "Playera Huntrix 10",
+    "category": "demon-hunters",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-10.webp",
+    "tags": [
+      "Huntrix",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
   },
   {
-  "id": "kuki-playera-huntrix-12",
-  "name": "Playera Huntrix 12",
-  "category": "demon-hunters",
-  "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-12.webp",
-    "tags": ["Huntrix", "Unisex"],
+    "id": "kuki-playera-huntrix-11",
+    "name": "Playera Huntrix 11",
+    "category": "demon-hunters",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-11.webp",
+    "tags": [
+      "Huntrix",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
   },
   {
-  "id": "kuki-playera-huntrix-13",
-  "name": "Playera Huntrix 13",
-  "category": "demon-hunters",
-  "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-13.webp",
-    "tags": ["Huntrix", "Unisex"],
+    "id": "kuki-playera-huntrix-12",
+    "name": "Playera Huntrix 12",
+    "category": "demon-hunters",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-12.webp",
+    "tags": [
+      "Huntrix",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
   },
   {
-  "id": "kuki-playera-huntrix-14",
-  "name": "Playera Huntrix 14",
-  "category": "demon-hunters",
-  "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-14.webp",
-    "tags": ["Huntrix", "Unisex"],
+    "id": "kuki-playera-huntrix-13",
+    "name": "Playera Huntrix 13",
+    "category": "demon-hunters",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-13.webp",
+    "tags": [
+      "Huntrix",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
   },
   {
-  "id": "kuki-playera-huntrix-15",
-  "name": "Playera Huntrix 15",
-  "category": "demon-hunters",
-  "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-15.webp",
-    "tags": ["Huntrix", "Unisex"],
+    "id": "kuki-playera-huntrix-14",
+    "name": "Playera Huntrix 14",
+    "category": "demon-hunters",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-14.webp",
+    "tags": [
+      "Huntrix",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
   },
   {
-  "id": "kuki-playera-huntrix-16",
-  "name": "Playera Huntrix 16",
-  "category": "demon-hunters",
-  "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-16.webp",
-    "tags": ["Huntrix", "Unisex"],
+    "id": "kuki-playera-huntrix-15",
+    "name": "Playera Huntrix 15",
+    "category": "demon-hunters",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-15.webp",
+    "tags": [
+      "Huntrix",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
   },
   {
-  "id": "kuki-playera-huntrix-17",
-  "name": "Playera Huntrix 17",
-  "category": "demon-hunters",
-  "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-17.webp",
-    "tags": ["Huntrix", "Unisex"],
+    "id": "kuki-playera-huntrix-16",
+    "name": "Playera Huntrix 16",
+    "category": "demon-hunters",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-16.webp",
+    "tags": [
+      "Huntrix",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
   },
   {
-  "id": "kuki-playera-huntrix-18",
-  "name": "Playera Huntrix 18",
-  "category": "demon-hunters",
-  "sizes": "Tallas XS–XXL",
-  "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-18.webp",
-    "tags": ["Huntrix", "Unisex"],
+    "id": "kuki-playera-huntrix-17",
+    "name": "Playera Huntrix 17",
+    "category": "demon-hunters",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-17.webp",
+    "tags": [
+      "Huntrix",
+      "Unisex"
+    ],
+    "price": 229,
+    "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
+  },
+  {
+    "id": "kuki-playera-huntrix-18",
+    "name": "Playera Huntrix 18",
+    "category": "demon-hunters",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/demon-hunters/kuki-playera-huntrix-18.webp",
+    "tags": [
+      "Huntrix",
+      "Unisex"
+    ],
     "price": 229,
     "desc": "Playera exclusiva Huntrix Demon Hunters. Algodón premium, diseño único y estampado duradero. ¡Colecciónala!"
   }
