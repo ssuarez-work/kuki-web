@@ -1,0 +1,209 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   TEMAS CONMUTABLES
+   - Tema A (oscuro refinado): por defecto en :root
+   - Tema B (claro corporativo): .theme-light en <html>
+   Un solo acento (highlight) usado con intención; lila para foco.
+   ============================================================ */
+:root {
+  --c-bg: #100b24; /* indigo profundo (identidad de marca, menos duro que el casi-negro) */
+  --c-fg: #eef1ff; /* texto principal */
+  --c-muted: #bcc3ea; /* texto secundario */
+  --c-faint: #969cc6; /* texto terciario (contraste mejorado) */
+  --c-surface: rgba(255, 255, 255, 0.05); /* tarjetas */
+  --c-surface-2: rgba(255, 255, 255, 0.09); /* chips/inputs/cajas con más presencia */
+  --c-line: rgba(255, 255, 255, 0.12); /* bordes con más definición */
+  --c-primary: #d1fa30; /* lima: solo la acción primaria */
+  --c-primary-ink: #0a0a0a;
+  --c-highlight: #d1fa30; /* lima: dato clave (precio/total) */
+  --c-ring: #9d81fc; /* lila: foco */
+  --shadow-soft: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-card: 0 12px 32px rgba(0, 0, 0, 0.38);
+  /* ambiente bitono: glow lila arriba-derecha + lima muy sutil abajo-izquierda */
+  --bg-glow: radial-gradient(900px 480px at 80% -15%, rgba(157, 129, 252, 0.18), transparent 60%),
+    radial-gradient(700px 420px at 0% 8%, rgba(209, 250, 48, 0.05), transparent 55%);
+}
+
+.theme-light {
+  --c-bg: #f4f5f9; /* fondo de página (gris frío muy claro) */
+  --c-fg: #16142e; /* texto principal */
+  --c-muted: #51546e; /* texto secundario (AA sobre claro) */
+  --c-faint: #6c7090; /* texto terciario (contraste mejorado) */
+  --c-surface: #ffffff; /* tarjetas */
+  --c-surface-2: #eceef6; /* chips/inputs/cajas: gris claro distinto del blanco */
+  --c-line: rgba(22, 20, 46, 0.12); /* bordes con más definición */
+  --c-primary: #5d43d0; /* lila profundo: texto blanco pasa AA (~7:1) */
+  --c-primary-ink: #ffffff;
+  --c-highlight: #5b3fd6; /* morado intenso para precios/total */
+  --c-ring: #6d4fd8;
+  --shadow-soft: 0 1px 2px rgba(22, 20, 46, 0.06);
+  --shadow-card: 0 6px 22px rgba(22, 20, 46, 0.09), 0 1px 3px rgba(22, 20, 46, 0.05);
+  --bg-glow: radial-gradient(900px 480px at 80% -15%, rgba(157, 129, 252, 0.1), transparent 60%);
+}
+
+@layer base {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    @apply font-sans text-fg antialiased;
+    background-color: var(--c-bg);
+    background-image: var(--bg-glow);
+    background-repeat: no-repeat;
+    line-height: 1.5;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  /* Foco visible y consistente en toda la app */
+  :where(a, button, input, textarea, select, [tabindex]):focus-visible {
+    outline: 2px solid var(--c-ring);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+  /* Selección de texto acorde al tema */
+  ::selection {
+    background: color-mix(in srgb, var(--c-ring) 40%, transparent);
+    color: var(--c-fg);
+  }
+  /* Scrollbar discreta acorde al tema */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: color-mix(in srgb, var(--c-fg) 22%, transparent) transparent;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: color-mix(in srgb, var(--c-fg) 18%, transparent);
+    border-radius: 999px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: color-mix(in srgb, var(--c-fg) 32%, transparent);
+    background-clip: content-box;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .container-kuki {
+    @apply mx-auto w-full px-4 sm:px-6 lg:px-8;
+    max-width: 1200px;
+  }
+
+  /* ---- Botones ---- */
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold transition duration-200 ease-smooth;
+    min-height: 44px; /* área táctil cómoda */
+  }
+  .btn-primary {
+    background: var(--c-primary);
+    color: var(--c-primary-ink);
+    box-shadow: 0 2px 10px color-mix(in srgb, var(--c-primary) 22%, transparent);
+  }
+  .btn-primary:hover {
+    filter: brightness(1.05);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 16px color-mix(in srgb, var(--c-primary) 32%, transparent);
+  }
+  .btn-ghost {
+    background: var(--c-surface-2);
+    color: var(--c-fg);
+    border: 1px solid var(--c-line);
+  }
+  .btn-ghost:hover {
+    border-color: var(--c-ring);
+  }
+  .btn:disabled,
+  .btn[disabled] {
+    @apply cursor-not-allowed opacity-40;
+    filter: none;
+    transform: none;
+    box-shadow: none;
+  }
+
+  /* ---- Etiquetas ---- */
+  .chip {
+    @apply inline-flex items-center rounded-full px-3 py-1 text-xs font-medium;
+    color: var(--c-fg);
+    border: 1px solid var(--c-line);
+    background: var(--c-surface-2);
+  }
+  .chip:hover {
+    border-color: var(--c-ring);
+  }
+  .chip-active {
+    background: var(--c-primary);
+    color: var(--c-primary-ink);
+    border-color: transparent;
+  }
+
+  /* ---- Superficies ---- */
+  .card {
+    @apply rounded-brand;
+    background: var(--c-surface);
+    border: 1px solid var(--c-line);
+    box-shadow: var(--shadow-card), inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  }
+  .card-hover {
+    @apply transition duration-200 ease-smooth;
+  }
+  .card-hover:hover {
+    transform: translateY(-3px);
+    border-color: var(--c-ring);
+  }
+
+  /* ---- Inputs ---- */
+  .field {
+    @apply w-full rounded-brand px-4 text-fg outline-none transition;
+    min-height: 46px;
+    background: var(--c-surface-2);
+    border: 1px solid var(--c-line);
+  }
+  .field::placeholder {
+    color: var(--c-faint);
+  }
+  .field:focus {
+    border-color: var(--c-ring);
+  }
+  .field-error {
+    border-color: #f87171;
+  }
+
+  /* ---- Skeleton ---- */
+  .skeleton {
+    background: linear-gradient(90deg, var(--c-surface) 25%, var(--c-surface-2) 50%, var(--c-surface) 75%);
+    background-size: 200% 100%;
+    animation: skeleton 1.3s ease-in-out infinite;
+  }
+  @keyframes skeleton {
+    0% {
+      background-position: 200% 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "kuki-playera-tanjiro-manga",
+    "name": "Playera Tanjiro",
+    "category": "kimetsu",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/kuki-playera-tanjiro-manga.webp",
+    "tags": ["Kimetsu", "Unisex"],
+    "price": 349,
+    "desc": "Algodón premium, estampado duradero de Tanjiro."
+  },
+  {
+    "id": "kuki-playera-inosuke-manga",
+    "name": "Playera Inosuke",
+    "category": "kimetsu",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/kuki-playera-inosuke-manga.webp",
+    "tags": ["Kimetsu", "Unisex"],
+    "price": 349,
+    "desc": "Algodón premium, estampado duradero de Inosuke."
+  },
+  {
+    "id": "kuki-playera-giyu-manga",
+    "name": "Playera Giyu Tomioka",
+    "category": "kimetsu",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/kuki-playera-giyu-manga.webp",
+    "tags": ["Kimetsu", "Pilar del Agua"],
+    "price": 349,
+    "desc": "Algodón premium, estampado duradero de Giyu Tomioka."
+  },
+  {
+    "id": "kuki-playera-shinobu-manga",
+    "name": "Playera Shinobu Kocho",
+    "category": "kimetsu",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/kuki-playera-shinobu-manga.webp",
+    "tags": ["Kimetsu", "Pilar del Insecto"],
+    "price": 349,
+    "desc": "Algodón premium, estampado duradero de Shinobu Kocho."
+  },
+  {
+    "id": "kuki-playera-kyorojuro-manga",
+    "name": "Playera Kyojuro Rengoku",
+    "category": "kimetsu",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/kuki-playera-kyorojuro-manga.webp",
+    "tags": ["Kimetsu", "Pilar de la Llama"],
+    "price": 349,
+    "desc": "Algodón premium, estampado duradero de Kyojuro Rengoku."
+  },
+  {
+    "id": "kuki-playera-tengen-manga",
+    "name": "Playera Tengen Uzui",
+    "category": "kimetsu",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/kuki-playera-tengen-manga.webp",
+    "tags": ["Kimetsu", "Pilar del Sonido"],
+    "price": 349,
+    "desc": "Algodón premium, estampado duradero de Tengen Uzui."
+  },
+  {
+    "id": "kuki-playera-mitsuri-manga",
+    "name": "Playera Mitsuri Kanroji",
+    "category": "kimetsu",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/kuki-playera-mitsuri-manga.webp",
+    "tags": ["Kimetsu", "Pilar del Amor"],
+    "price": 349,
+    "desc": "Algodón premium, estampado duradero de Mitsuri Kanroji."
+  },
+  {
+    "id": "kuki-playera-muichiro-manga",
+    "name": "Playera Muichiro Tokito",
+    "category": "kimetsu",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/kuki-playera-muichiro-manga.webp",
+    "tags": ["Kimetsu", "Pilar de la Niebla"],
+    "price": 349,
+    "desc": "Algodón premium, estampado duradero de Muichiro Tokito."
+  },
+  {
+    "id": "kuki-playera-obanai-manga",
+    "name": "Playera Obanai Iguro",
+    "category": "kimetsu",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/kuki-playera-obanai-manga.webp",
+    "tags": ["Kimetsu", "Pilar de la Serpiente"],
+    "price": 349,
+    "desc": "Algodón premium, estampado duradero de Obanai Iguro."
+  },
+  {
+    "id": "kuki-playera-sanemi-manga",
+    "name": "Playera Sanemi Shinazugawa",
+    "category": "kimetsu",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/kuki-playera-sanemi-manga.webp",
+    "tags": ["Kimetsu", "Pilar del Viento"],
+    "price": 349,
+    "desc": "Algodón premium, estampado duradero de Sanemi Shinazugawa."
+  },
+  {
+    "id": "kuki-playera-gyomei-manga",
+    "name": "Playera Gyomei Himejima",
+    "category": "kimetsu",
+    "sizes": "Tallas XS–XXL",
+    "img": "assets/img/products/kuki-playera-gyomei-manga.webp",
+    "tags": ["Kimetsu", "Pilar de la Roca"],
+    "price": 349,
+    "desc": "Algodón premium, estampado duradero de Gyomei Himejima."
+  }
+]

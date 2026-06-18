@@ -1,0 +1,43 @@
+export interface GarmentColor {
+  name: string
+  hex: string
+}
+
+export const AVAILABLE_COLORS: GarmentColor[] = [
+  { name: 'Blanco', hex: '#FFFFFF' },
+  { name: 'Hueso', hex: '#ECE6D8' },
+  { name: 'Gris Jaspe', hex: '#C2C6CC' },
+  { name: 'Gris', hex: '#9AA0A6' },
+  { name: 'Oxford', hex: '#4A4E57' },
+  { name: 'Carbón', hex: '#3A3D42' },
+  { name: 'Negro', hex: '#1A1A1A' },
+  { name: 'Kaki', hex: '#B5A479' },
+  { name: 'Tabaco', hex: '#6B4A2B' },
+  { name: 'Rojo', hex: '#C8102E' },
+  { name: 'Cherry', hex: '#9E1B32' },
+  { name: 'Vino', hex: '#6E1423' },
+  { name: 'Salmón', hex: '#F4978E' },
+  { name: 'Rosa', hex: '#F6A9C1' },
+  { name: 'Rosa Pastel', hex: '#F7CAD9' },
+  { name: 'Fucsia', hex: '#C81E78' },
+  { name: 'Heliconia', hex: '#E4007C' },
+  { name: 'Mango', hex: '#F39A1E' },
+  { name: 'Naranja', hex: '#F26522' },
+  { name: 'Naranja Neón', hex: '#FF6A13' },
+  { name: 'Canario', hex: '#FFE14D' },
+  { name: 'Lima', hex: '#9CCB3B' },
+  { name: 'Limón', hex: '#C7D92D' },
+  { name: 'Verde Neón', hex: '#5BE800' },
+  { name: 'Menta', hex: '#9FE2BF' },
+  { name: 'Perry', hex: '#6FBF4B' },
+  { name: 'Bandera', hex: '#0A7D33' },
+  { name: 'Militar', hex: '#4B5320' },
+  { name: 'Aqua', hex: '#4FD0D6' },
+  { name: 'Celeste', hex: '#8FCDEB' },
+  { name: 'Turquesa', hex: '#009CA6' },
+  { name: 'Petróleo', hex: '#1F4E5F' },
+  { name: 'Azul Rey', hex: '#1D4ED8' },
+  { name: 'Marino', hex: '#14203F' },
+  { name: 'Morado', hex: '#5B2A86' },
+  { name: 'Morado Fuerte', hex: '#3D1A66' },
+]
