@@ -5,6 +5,13 @@ export default defineNuxtConfig({
 
   modules: ['@nuxtjs/tailwindcss', 'nuxt-gtag'],
 
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ['/', '/sitemap.xml', '/robots.txt'],
+    },
+  },
+
   css: ['~/assets/css/tailwind.css'],
 
   // Google Analytics 4. Define tu ID en .env (NUXT_PUBLIC_GTAG_ID=G-XXXXXXXXXX).
@@ -74,7 +81,7 @@ export default defineNuxtConfig({
       supabaseAnonKey: process.env.SUPABASE_ANON_KEY || '',
       whatsappPhone: process.env.WHATSAPP_PHONE || '529999985969',
       // URL canónica del sitio (cámbiala por tu dominio real cuando lo tengas).
-      siteUrl: process.env.SITE_URL || 'https://kuki.com.mx',
+      siteUrl: process.env.SITE_URL || 'https://www.kuki.com.mx',
     },
   },
 })
